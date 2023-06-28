@@ -965,7 +965,7 @@
                     var notificationTitle = e.message;
                     var notificationOptions = {
                     body: "You have received a new message.",
-                    icon: "path/to/notification-icon.png"
+                    icon: "https://laravel.com/img/favicon/favicon.ico"
                     }
                     showNotification(notificationTitle, notificationOptions);
                 });
